@@ -1,8 +1,24 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-flow: column wrap;
+  background-color: aliceblue;
 }
 
 a {
-  color: #00B7FF;
+  color: white;
+  text-decoration: none;
+
+}
+
+.links {
+  background-color: goldenrod;
+  border: none;
+  border-radius: 12px;
+}
+
+.links:hover {
+  background-color: orange;
+
 }

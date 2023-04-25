@@ -1,14 +1,14 @@
-<h1>{{data}}</h1>
+<h1>Track Samples</h1>
 
 {{#each body.items}}
-  <ul>
-    <li>{{name}}
-    {{#if preview_url}}
+  
+    {{name}}
+   <p>{{#if preview_url}}
       <audio src={{preview_url}} controls></audio>
       {{! <p>Data Exists</p> }}
     {{else}}
       <p>Doesn't exist</p>
     {{/if}}
-    </li>
-  </ul>
+    </p>
+ 
 {{/each}}
